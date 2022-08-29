@@ -1,0 +1,24 @@
+.newsItem{
+    transition: margin .3s;
+}
+.newsItem:hover{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border-color: #5cb85c;
+}
+.newsItem img{
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+}
+.newsItem img:hover{
+    filter: brightness(80%);
+}
+.newsItem a.news-title:hover{
+    color: #5cb85c !important;
+}
+.newsItem small{
+    font-size: .7rem;
+    background: #f3f3f3;
+    padding: 2px 6px;
+}
